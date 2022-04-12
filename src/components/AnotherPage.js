@@ -10,6 +10,7 @@ export default function AnotherPage() {
             </Helmet>
             <h2>This is another page.</h2>
             <Link to="/">Go to Home page.</Link>
+            <Link to="/another-page/1">Go to another page version one.</Link>
         </>
     )
 }
