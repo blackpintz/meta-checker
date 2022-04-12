@@ -22,9 +22,7 @@
     "postbuild": "react-snap"
   },
   "reactSnap": {
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
-    "include" : ["/info-page"],
-    "exclude" : ["/", "/another-page"]
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
   },
   "eslintConfig": {
     "extends": [
