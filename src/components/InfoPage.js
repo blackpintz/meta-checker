@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import {Helmet} from 'react-helmet';
-import coinImg from '../assets/coin.jpg'
+import coinImg from '../assets/coin.jpg';
 
 export default function InfoPage() {
-    const hostName = "https://meta-checker.herokuapp.com/"
+    const hostName = "https://meta-checker.herokuapp.com"
     return(
         <>
             <Helmet>
