@@ -6,7 +6,7 @@ export default function InfoPage() {
     const hostName = "https://meta-checker.herokuapp.com"
     return(
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Info-Page</title>
                 <meta property="og:title" content="Info-Page" />
                 <meta name="description" content="This is the info page." />
@@ -19,7 +19,7 @@ export default function InfoPage() {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:image:alt" content="coin img" />
                 <meta name="twitter:site" content="@BlockchainHut" />
-            </Helmet>
+            </Helmet> */}
             <h2>This is the information page.</h2>
             <Link to="/another-page">Go to another page.</Link>
         </>
